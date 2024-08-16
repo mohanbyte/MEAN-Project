@@ -19,6 +19,3 @@ input[type="file"] {
 .image-preview img {
   height: 100%;
 }
-.mat-mdc-card {
-  padding: 10px;
-}

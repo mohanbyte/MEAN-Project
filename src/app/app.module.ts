@@ -18,6 +18,7 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 import { provideAnimationsAsync } from '@angular/platform-browser/animations/async';
 import { RouterModule, Routes } from '@angular/router';
 import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
+import { MatPaginatorModule } from '@angular/material/paginator';
 const routes: Routes = [
   { path: '', component: PostListComponent },
   { path: 'create', component: PostCreateComponent },
@@ -36,6 +37,7 @@ const routes: Routes = [
     HttpClientModule,
     MatInputModule,
     MatCardModule,
+    MatPaginatorModule,
     ReactiveFormsModule,
     MatFormFieldModule,
     BrowserModule,

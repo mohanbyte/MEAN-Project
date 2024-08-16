@@ -1,8 +1,6 @@
 const express = require("express");
 const router = express.Router();
-
 const Post = require("../models/host");
-const mongoose = require("mongoose");
 const multer = require("multer");
 
 const MIME_TYPE = {
